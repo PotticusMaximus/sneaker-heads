@@ -36,3 +36,9 @@ Images:
   height: 400px;
   width: 600px;
 }
+
+body {
+  background-image: url(najbg.jpeg);
+  background-size: cover;
+  background-position: center;
+}
