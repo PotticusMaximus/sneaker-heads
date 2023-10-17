@@ -27,6 +27,11 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+@font-face {
+  font-family: "Gabarito";
+  src: url(Gabarito/Gabarito-VariableFont_wght.ttf);
+}
+
 #jordans-1 {
   height: 400px;
   width: 600px;
@@ -41,4 +46,57 @@ body {
   background-image: url(najbg.jpeg);
   background-size: cover;
   background-position: center;
+}
+
+h1 {
+  font-family: "Gabarito", Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  align-self: center;
+  text-align: center;
+}
+
+p {
+  font-family: "Gabarito", Arial, Helvetica, sans-serif;
+}
+
+div {
+  border: 2px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.div1 {
+  border: 2px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgcontainer {
+  position: relative;
+}
+
+.imgtxt {
+  position: absolute;
+  color: white;
+  font-family: "Gabarito";
+  font-size: 50px;
+  top: 300px;
+  left: 450px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.imgtxt2 {
+  position: absolute;
+  color: black;
+  font-family: "Gabarito";
+  font-size: 50px;
+  top: 300px;
+  left: 450px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
